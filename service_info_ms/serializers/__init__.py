@@ -1,0 +1,4 @@
+from .atendance_time_serializer import AtendanceTimeSerializer
+from .doctor_serializer import DoctorSerializer
+from .review_serializer import ReviewSerializer
+from .service_serializer import ServiceSerializer
