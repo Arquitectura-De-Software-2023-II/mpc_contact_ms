@@ -11,3 +11,6 @@ class Doctor(models.Model):
     email = models.CharField(max_length=50)
     image = models.CharField(max_length=50)
     rating = models.FloatField()
+
+    class Meta:
+        app_label = 'service_info_ms'
